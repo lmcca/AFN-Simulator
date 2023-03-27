@@ -1,0 +1,15 @@
+alfabeto = a,b
+estados=q0,q1,q2,q3,q4
+inicial=q0
+finais=q1,q4
+transicoes
+q0,q1,epsilon
+q0,q3,epsilon
+q1,q2,a
+q2,q1,a
+q2,q2,b
+q1,q1,b
+q3,q3,a
+q3,q4,b
+q4,q4,a
+q4,q3,b
